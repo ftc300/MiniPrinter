@@ -48,28 +48,7 @@ function startBluetoothDevicesDiscovery() {
   });
 }
 export default function Index() {
-  const [state, setState] = useState<Devices[]>([
-    /*     {
-      name: "DBT01",
-      deviceId: "",
-      localName: "",
-      RSSI: 0,
-      advertisData: new ArrayBuffer(1),
-      advertisServiceUUIDs: [],
-      connectable: false,
-      serviceData: {},
-    },
-    {
-      name: "DBT02",
-      deviceId: "",
-      localName: "",
-      RSSI: 0,
-      advertisData: new ArrayBuffer(1),
-      advertisServiceUUIDs: [],
-      connectable: false,
-      serviceData: {},
-    }, */
-  ]);
+  const [state, setState] = useState<Devices[]>([]);
   const [fabIcon, setfabIcon] = useState("at-icon-streaming");
 
   useUnload(() => {
