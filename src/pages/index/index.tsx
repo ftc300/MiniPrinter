@@ -139,9 +139,9 @@ export default function Index() {
     <View className="index">
       <View className="topHeight"></View>
       <View className="title">
-        <Text className="hi">Hi~ !</Text>
+        <Text className="hi">Hi!</Text>
         <View>
-          <Text className="welcome">欢迎使用菠萝储能BMS</Text>
+          <Text className="welcome">欢迎使用MiniPrinterPro</Text>
         </View>
       </View>
       <View className="btngroup">
